@@ -10,6 +10,16 @@ def main():
     script = Path(sys.argv[1]).resolve()
     sys.argv = [str(script), *sys.argv[2:]]
     sys.path.insert(0, str(script.parent))
+    if (script.parent / "models/yolov5n.yaml").exists():
+        import matplotlib
+        from font_assets import ensure_plot_font
+        from workspace import ROOT
+
+        cache = Path(os.environ.get("YOLOV5_CONFIG_DIR", ROOT / ".cache/yolov5"))
+        os.environ["YOLOV5_CONFIG_DIR"] = str(cache)
+        windows_font = Path(os.environ.get("WINDIR", "C:/Windows")) / "Fonts/arial.ttf"
+        fallback = Path(matplotlib.get_data_path()) / "fonts/ttf/DejaVuSans.ttf"
+        ensure_plot_font(cache, [windows_font, fallback])
     # OpenCV's Windows imread/imwrite do not reliably accept Unicode file names.
     if sys.platform == "win32":
         import cv2

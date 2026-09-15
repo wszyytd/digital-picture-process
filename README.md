@@ -15,6 +15,7 @@ scripts/
   prepare_smoke.py         # 下载 COCO8，验证目录
   run.py                  # train / val / predict / dry-run
   legacy_entry.py         # v5/v7 官方入口的 Windows 中文图片路径适配
+  font_assets.py          # 从本机字体准备 YOLOv5 绘图缓存，避免联网下载
   workspace.py            # 路径、下载和版本检查
 tests/                    # 不需要 PyTorch 的离线入口测试
 docs/                     # 数据规范、同步流程、实验协议、验证记录
@@ -110,3 +111,9 @@ git status --short
 ```
 
 Git 只保存代码、配置、文档和 init 原始资料。不要强制添加被忽略的数据、权重、环境或密钥。当前不附加项目许可证：发布前由项目组决定自有代码许可，并保留各官方实现/数据的来源与许可要求。
+
+## YOLOv5 字体下载 HTTP 308
+
+旧版 YOLOv5 的 Arial.ttf 下载链接可能返回 HTTP 308，导致数据检查中断。项目入口现已在运行前准备本地字体：Windows 优先使用系统 Arial，其他环境使用 Matplotlib 附带的 DejaVu Sans 作为英文类别标签的绘图备用字体。字体只放入被忽略的 .cache/yolov5，不修改官方源码，也不提交字体文件。
+
+失败实验目录会保留日志。重试时换一个 --name，例如 v5_cpu_retry，不能复用已经存在的 v5_cpu_smoke。当前备用字体方案面向项目英文类别表；若改用中文类别名称，需要另外提供支持对应字符的 Arial.Unicode.ttf 或扩展字体配置。

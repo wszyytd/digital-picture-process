@@ -1,4 +1,16 @@
-# 初始化验证记录
+# 验证记录
+
+## 2026-09-15 字体修复后的实际 CPU 验证
+
+用户已完成环境和数据下载。旧版 YOLOv5 在 check_dataset 中尝试下载 Arial.ttf，遇到 HTTP 308 导致训练终止。入口已改为预先缓存本机 Arial，Linux 可使用 Matplotlib 内置 DejaVu Sans 作为英文标签字体。官方源码未修改，字体不进入 Git。
+
+实际运行：python scripts/run.py --model yolov5 --profile cpu-smoke --name v5_cpu_fontfix_20260915。
+
+结果：Python 3.10.20、torch 2.5.1+cpu、YOLOv5 915bbf2，COCO8 的 4 张训练图和 4 张验证图，imgsz=320、batch=2、workers=0、1 epoch。训练与最终验证完成；experiment.json 的 status=completed、exit_code=0。已核对 weights/best.pt 和 last.pt 均为 3,981,542 字节，results.csv 与 results.png 存在。指标仅为冒烟验证，不作为正式性能结论。
+
+11 项离线测试通过。YOLOv7-tiny、YOLOv8 和服务器 GPU 训练仍未在此处验证。以下保留初始化时的历史记录，其中“未完成”描述仅适用于当时。
+
+## 初始化历史记录
 
 验证时间：2026-09-15。
 
