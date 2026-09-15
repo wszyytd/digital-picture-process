@@ -1,0 +1,40 @@
+# Local runtimes and upstream repositories
+.venv/
+.venvs/
+.python/
+.cache/
+third_party/*
+!third_party/README.md
+
+# Data, weights and machine-generated results
+data/*
+!data/README.md
+weights/*
+!weights/README.md
+runs/*
+!runs/README.md
+tmp/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.cache
+*.zip
+*.tgz
+*.tar
+*.gz
+
+# Python, editors and credentials
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+~$*
+.idea/
+.vscode/

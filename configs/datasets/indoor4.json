@@ -1,0 +1,12 @@
+{
+  "root": "data/indoor4",
+  "train": "images/train",
+  "val": "images/val",
+  "test": "images/test",
+  "names": [
+    "person",
+    "cat",
+    "dog",
+    "chair"
+  ]
+}

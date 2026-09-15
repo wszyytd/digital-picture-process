@@ -1,0 +1,10 @@
+{
+  "dataset": "configs/datasets/coco8.json",
+  "device": "cpu",
+  "epochs": 1,
+  "imgsz": 320,
+  "batch": 2,
+  "workers": 0,
+  "seed": 1,
+  "threads": 2
+}
