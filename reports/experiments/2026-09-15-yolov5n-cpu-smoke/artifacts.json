@@ -1,0 +1,38 @@
+{
+  "weights/best.pt": {
+    "bytes": 3981542,
+    "sha256": "645faad4cd5be675909f0e4357f1dc3096ae319c3eea3b8355c54c3b169f1fb3"
+  },
+  "weights/last.pt": {
+    "bytes": 3981542,
+    "sha256": "645faad4cd5be675909f0e4357f1dc3096ae319c3eea3b8355c54c3b169f1fb3"
+  },
+  "results.csv": {
+    "bytes": 590,
+    "sha256": "c4fcf2ea9400c99abb444e6f4922d297352e5c121b7e7355e6d86b9aa5f51335"
+  },
+  "results.png": {
+    "bytes": 211474,
+    "sha256": "fbcb95e00469e1c2bc5f49577f6e9e152992611beba9d723331b482989fe6a67"
+  },
+  "experiment.json": {
+    "bytes": 3690,
+    "sha256": "a159a845116f5990e55dabfcb2a93805ff472a6dd57364596573a728e54659a6"
+  },
+  "environment.txt": {
+    "bytes": 1321,
+    "sha256": "bab7e997d231b70f63768e993101873eacbd91b678fe3777097aabeb3dafe475"
+  },
+  "opt.yaml": {
+    "bytes": 1370,
+    "sha256": "8ba65e38a7b5a4cdeaf6911b3d0c3ce764299860638fb6c4c26b096dabae7ae3"
+  },
+  "hyp.yaml": {
+    "bytes": 401,
+    "sha256": "e6a6d755ad525c4dac609334c528ec21c219d4e355096b9b9599206c12115f4b"
+  },
+  "data.yaml": {
+    "bytes": 1426,
+    "sha256": "dccf5e74a1c33df129aa8e9f24930b20c7e596f82a40000e46e2a1fc87098aee"
+  }
+}

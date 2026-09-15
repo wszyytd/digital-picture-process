@@ -1,0 +1,22 @@
+{
+  "source": "runs/yolov5/v5_cpu_fontfix_20260915/results.csv",
+  "purpose": "pipeline_smoke_test_only",
+  "epochs": [
+    {
+      "epoch": 0.0,
+      "train/box_loss": 0.066499,
+      "train/obj_loss": 0.037575,
+      "train/cls_loss": 0.087115,
+      "metrics/precision": 0.68683,
+      "metrics/recall": 0.38333,
+      "metrics/mAP_0.5": 0.76434,
+      "metrics/mAP_0.5:0.95": 0.36337,
+      "val/box_loss": 0.068003,
+      "val/obj_loss": 0.017002,
+      "val/cls_loss": 0.033932,
+      "x/lr0": 0.0991,
+      "x/lr1": 0.0001,
+      "x/lr2": 0.0001
+    }
+  ]
+}
