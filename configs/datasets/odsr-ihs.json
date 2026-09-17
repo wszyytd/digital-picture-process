@@ -1,0 +1,22 @@
+{
+  "root": "data/odsr-ihs",
+  "train": "images/train",
+  "val": "images/val",
+  "test": "images/test",
+  "names": [
+    "trashcan",
+    "slippers",
+    "wire",
+    "socks",
+    "carpet",
+    "book",
+    "feces",
+    "curtain",
+    "stool",
+    "bed",
+    "sofa",
+    "closestool",
+    "table",
+    "cabinet"
+  ]
+}

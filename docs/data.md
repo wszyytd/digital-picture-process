@@ -49,3 +49,7 @@ TUM/Bonn 的位姿真值不是 YOLO 检测框标注。保留独立序列用于�
 `--data-root` 可以指向服务器路径，例如 `/data/indoor4`。不用修改已提交的配置文件。
 
 Windows 上 YOLOv7 的 train/val 均强制 workers=0，避免子进程绕过中文图片路径适配。Linux 上按 profile 的 workers 设置。
+
+## ODSR-IHS 低机位数据
+
+新增 14 类配置 `configs/datasets/odsr-ihs.json`。清洗、服务器复现和训练步骤见 [ODSR-IHS 操作说明](odsr-ihs.md)。原始 XML 经精确修正后重新生成标签；不使用原包中省略异常目标的 TXT。

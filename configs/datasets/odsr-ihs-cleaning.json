@@ -1,0 +1,432 @@
+{
+  "version": "odsr-ihs-clean-v1",
+  "excluded_images": [
+    "004235",
+    "005107",
+    "005214",
+    "005423"
+  ],
+  "exclusion_reason": "Uncertain object class or extent after visual review; exclude whole image, retain original.",
+  "fixes": [
+    {
+      "image_id": "000171",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        125.0,
+        256.0,
+        244.0,
+        373.0
+      ]
+    },
+    {
+      "image_id": "000208",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        556.0,
+        239.0,
+        640.0,
+        382.0
+      ]
+    },
+    {
+      "image_id": "000209",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        1.0,
+        56.0,
+        208.0,
+        380.0
+      ]
+    },
+    {
+      "image_id": "000250",
+      "object_index": 4,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        233.0,
+        294.0,
+        271.0,
+        329.0
+      ]
+    },
+    {
+      "image_id": "000513",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        225.0,
+        260.0,
+        329.0,
+        377.0
+      ]
+    },
+    {
+      "image_id": "000516",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        576.0,
+        226.0,
+        640.0,
+        364.0
+      ]
+    },
+    {
+      "image_id": "000537",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        1.0,
+        295.0,
+        105.0,
+        423.0
+      ]
+    },
+    {
+      "image_id": "000768",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        114.0,
+        267.0,
+        182.0,
+        427.0
+      ]
+    },
+    {
+      "image_id": "002392",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        190.0,
+        332.0,
+        241.0,
+        399.0
+      ]
+    },
+    {
+      "image_id": "002509",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        32.0,
+        122.0,
+        292.0,
+        430.0
+      ]
+    },
+    {
+      "image_id": "002553",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        42.0,
+        299.0,
+        81.0,
+        349.0
+      ]
+    },
+    {
+      "image_id": "002744",
+      "object_index": 2,
+      "before": "curtainw",
+      "after": "curtain",
+      "bbox": [
+        300.0,
+        75.0,
+        436.0,
+        333.0
+      ]
+    },
+    {
+      "image_id": "002744",
+      "object_index": 3,
+      "before": "curtainw",
+      "after": "curtain",
+      "bbox": [
+        556.0,
+        44.0,
+        640.0,
+        162.0
+      ]
+    },
+    {
+      "image_id": "003024",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        1.0,
+        1.0,
+        141.0,
+        392.0
+      ]
+    },
+    {
+      "image_id": "003025",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        1.0,
+        1.0,
+        317.0,
+        381.0
+      ]
+    },
+    {
+      "image_id": "003239",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        139.0,
+        246.0,
+        214.0,
+        375.0
+      ]
+    },
+    {
+      "image_id": "003489",
+      "object_index": 2,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        1.0,
+        241.0,
+        152.0,
+        405.0
+      ]
+    },
+    {
+      "image_id": "003611",
+      "object_index": 2,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        498.0,
+        260.0,
+        587.0,
+        367.0
+      ]
+    },
+    {
+      "image_id": "003615",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        174.0,
+        147.0,
+        324.0,
+        372.0
+      ]
+    },
+    {
+      "image_id": "003776",
+      "object_index": 0,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        299.0,
+        147.0,
+        494.0,
+        359.0
+      ]
+    },
+    {
+      "image_id": "003821",
+      "object_index": 0,
+      "before": "carpetcabinet",
+      "after": "cabinet",
+      "bbox": [
+        1.0,
+        1.0,
+        263.0,
+        370.0
+      ]
+    },
+    {
+      "image_id": "003829",
+      "object_index": 2,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        39.0,
+        331.0,
+        87.0,
+        377.0
+      ]
+    },
+    {
+      "image_id": "004731",
+      "object_index": 1,
+      "before": "fecesstool",
+      "after": "stool",
+      "bbox": [
+        225.0,
+        204.0,
+        420.0,
+        405.0
+      ]
+    },
+    {
+      "image_id": "004774",
+      "object_index": 2,
+      "before": "发展",
+      "after": "cabinet",
+      "bbox": [
+        512.0,
+        370.0,
+        602.0,
+        429.0
+      ]
+    },
+    {
+      "image_id": "004842",
+      "object_index": 3,
+      "before": "本地",
+      "after": "sofa",
+      "bbox": [
+        1.0,
+        196.0,
+        318.0,
+        384.0
+      ]
+    },
+    {
+      "image_id": "005436",
+      "object_index": 1,
+      "before": "wirecabinet",
+      "after": "cabinet",
+      "bbox": [
+        307.0,
+        1.0,
+        640.0,
+        406.0
+      ]
+    },
+    {
+      "image_id": "005627",
+      "object_index": 0,
+      "before": "出来",
+      "after": "curtain",
+      "bbox": [
+        121.0,
+        116.0,
+        192.0,
+        403.0
+      ]
+    },
+    {
+      "image_id": "005688",
+      "object_index": 0,
+      "before": "closetool",
+      "after": "closestool",
+      "bbox": [
+        30.0,
+        1.0,
+        566.0,
+        401.0
+      ]
+    },
+    {
+      "image_id": "005690",
+      "object_index": 0,
+      "before": "closetool",
+      "after": "closestool",
+      "bbox": [
+        148.0,
+        1.0,
+        582.0,
+        393.0
+      ]
+    },
+    {
+      "image_id": "005691",
+      "object_index": 0,
+      "before": "closetool",
+      "after": "closestool",
+      "bbox": [
+        71.0,
+        1.0,
+        494.0,
+        416.0
+      ]
+    },
+    {
+      "image_id": "005757",
+      "object_index": 1,
+      "before": "sf",
+      "after": "sofa",
+      "bbox": [
+        1.0,
+        161.0,
+        444.0,
+        403.0
+      ]
+    },
+    {
+      "image_id": "005843",
+      "object_index": 1,
+      "before": "cabinettrashcan",
+      "after": "trashcan",
+      "bbox": [
+        306.0,
+        326.0,
+        375.0,
+        409.0
+      ]
+    },
+    {
+      "image_id": "005906",
+      "object_index": 0,
+      "before": "closetool",
+      "after": "closestool",
+      "bbox": [
+        262.0,
+        8.0,
+        620.0,
+        417.0
+      ]
+    },
+    {
+      "image_id": "005939",
+      "object_index": 0,
+      "before": "closetool",
+      "after": "closestool",
+      "bbox": [
+        4.0,
+        1.0,
+        472.0,
+        392.0
+      ]
+    },
+    {
+      "image_id": "005973",
+      "object_index": 1,
+      "before": "trash can",
+      "after": "trashcan",
+      "bbox": [
+        44.0,
+        286.0,
+        140.0,
+        392.0
+      ]
+    }
+  ]
+}

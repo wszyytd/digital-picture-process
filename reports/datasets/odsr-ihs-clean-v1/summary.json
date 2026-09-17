@@ -1,0 +1,97 @@
+{
+  "version": "odsr-ihs-clean-v1",
+  "rules_sha256": "552b47a139995c9a9ce3bfd159ea62c04629cb9fbbbbc3ae2699ae2c257f5b60",
+  "names": [
+    "trashcan",
+    "slippers",
+    "wire",
+    "socks",
+    "carpet",
+    "book",
+    "feces",
+    "curtain",
+    "stool",
+    "bed",
+    "sofa",
+    "closestool",
+    "table",
+    "cabinet"
+  ],
+  "source_images": 6000,
+  "source_objects": 16465,
+  "retained_images": 5996,
+  "retained_objects": 16447,
+  "corrected_objects": 35,
+  "excluded_images": [
+    "004235",
+    "005107",
+    "005214",
+    "005423"
+  ],
+  "split_images": {
+    "train": 4796,
+    "val": 240,
+    "test": 960
+  },
+  "class_objects": {
+    "train": {
+      "trashcan": 927,
+      "cabinet": 2365,
+      "book": 276,
+      "sofa": 954,
+      "table": 1384,
+      "carpet": 460,
+      "feces": 375,
+      "slippers": 782,
+      "bed": 829,
+      "stool": 2698,
+      "closestool": 311,
+      "wire": 654,
+      "curtain": 1034,
+      "socks": 141
+    },
+    "val": {
+      "trashcan": 50,
+      "stool": 141,
+      "wire": 37,
+      "book": 19,
+      "feces": 29,
+      "slippers": 41,
+      "sofa": 39,
+      "closestool": 18,
+      "bed": 38,
+      "cabinet": 125,
+      "table": 68,
+      "curtain": 38,
+      "carpet": 18,
+      "socks": 6
+    },
+    "test": {
+      "feces": 61,
+      "stool": 545,
+      "table": 241,
+      "wire": 122,
+      "book": 54,
+      "sofa": 179,
+      "cabinet": 481,
+      "trashcan": 209,
+      "slippers": 144,
+      "carpet": 94,
+      "curtain": 188,
+      "socks": 31,
+      "bed": 170,
+      "closestool": 71
+    }
+  },
+  "exact_duplicate_groups": [
+    [
+      "002804",
+      "002805"
+    ]
+  ],
+  "limitations": [
+    "Original image-ID splits retained; room/sequence leakage and near-duplicates not ruled out.",
+    "Coordinate conversion matches original TXT: center=(min+max)/2, extent=max-min; no one-pixel offset.",
+    "No person, pet, or robot classes. Not a complete dynamic-SLAM dataset."
+  ]
+}
