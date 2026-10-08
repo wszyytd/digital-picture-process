@@ -117,3 +117,7 @@ Git 只保存代码、配置、文档和 init 原始资料。不要强制添加�
 旧版 YOLOv5 的 Arial.ttf 下载链接可能返回 HTTP 308，导致数据检查中断。项目入口现已在运行前准备本地字体：Windows 优先使用系统 Arial，其他环境使用 Matplotlib 附带的 DejaVu Sans 作为英文类别标签的绘图备用字体。字体只放入被忽略的 .cache/yolov5，不修改官方源码，也不提交字体文件。
 
 失败实验目录会保留日志。重试时换一个 --name，例如 v5_cpu_retry，不能复用已经存在的 v5_cpu_smoke。当前备用字体方案面向项目英文类别表；若改用中文类别名称，需要另外提供支持对应字符的 Arial.Unicode.ttf 或扩展字体配置。
+
+## YOLOv8n ODSR快捷训练
+
+服务器使用 `python3 scripts/train_v8.py setup` 安装环境，`python3 scripts/train_v8.py check` 检查3轮，`python3 scripts/train_v8.py train` 正式训练50轮。后台运行、缓存处理、测试命令及参数见 [YOLOv8n训练说明](docs/yolov8-odsr.md)。
